@@ -12,7 +12,7 @@ export default function App() {
         </View>
         <View style={styles.informationContainer}>
           <Text style={styles.text}>Thomas Wolf</Text>
-          <Text style={styles.text} onPress={() => Linking.openURL("mailto:twolf1@hgtc.edu")}>Email</Text>
+          <Text style={styles.text} onPress={() => Linking.openURL("mailto:tjwolf@coastal.edu")}>Email</Text>
           <Text style={styles.text} onPress={() => Linking.openURL("tel:1234567980")}>Phone</Text>
           <Text style={styles.text} onPress={() => Linking.openURL("https://github.com/ThomasJWolf/")}>GitHub</Text>
         </View>
