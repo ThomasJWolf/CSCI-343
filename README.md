@@ -1,2 +1,2 @@
-# IST-236
-This repository is for IST 236 Spring 2024
+# CSCI-343
+This repository is for CSCI 343 Fall 2026
