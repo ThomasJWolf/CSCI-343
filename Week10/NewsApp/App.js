@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import { StatusBar } from "expo-status-bar";
 import { useState, useMemo, useCallback } from "react";
 import { StyleSheet, Text, View } from "react-native";
@@ -34,7 +35,7 @@ function DrawerNavigator() {
           fontSize: 40,
           color: Colors.accent800,
         },
-        sceneContainerStyle: { backgroundColor: Colors.primary300 },
+        sceneStyle: { backgroundColor: Colors.primary300 }, // Updated from sceneContainerStyle for v7
         drawerContentStyle: { backgroundColor: Colors.primary500 },
         drawerActiveTintColor: Colors.primary300o5,
         drawerInactiveTintColor: Colors.primary300,
